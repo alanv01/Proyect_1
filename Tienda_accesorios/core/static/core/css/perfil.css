@@ -1,0 +1,159 @@
+.container3{
+    padding-top: 70px;
+    
+}
+
+.titulosub0{
+    color: rgb(241, 235, 235);
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    
+}
+.p2{
+    font-size: small;
+    color: grey;
+}
+
+.planes-subs1{
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(246, 243, 243);
+    width: 30%;
+    border-style: solid;
+    left: 100px;
+    
+}
+
+.primerplan{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.precio1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.precio1 .fecha{
+    font-size: small;
+}
+.button{
+    color: black;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 20px;
+}
+.button:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+.planes-subs2{
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(246, 243, 243);
+    width: 30%;
+    border-style: solid;
+    left: 400px;
+    bottom: 200px;
+    
+}
+
+.segundoplan{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.precio2{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.precio2 .fecha{
+    font-size: small;
+}
+.button{
+    color: black;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 20px;
+}
+
+.donacion{
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.frase-don{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.form3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

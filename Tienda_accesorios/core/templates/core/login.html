@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!--<script src="https://kit.fontawesome.com/04e9bd8ab5.js" crossorigin="anonymous"></script>-->
+
+    
+
+    <title>Login</title>
+
+
+    <link href="{% static 'core/css/style-login.css' %}" rel="stylesheet" />
+
+    {% block css %}
+
+    {% endblock %}
+</head>
+<body>
+
+    
+    <div class="formulario">
+        <h1>Inicio de Sesion</h1>
+        <form method="post">
+            <div class="textcamp">
+                <input type="text" required placeholder="Ingrese usuario">
+            </div>
+            <div class="username">
+                <label for="username">Nombre de usuario :</label>
+            </div>
+
+            <div class="password">
+                <label for="password">Contraseña :</label>
+            </div>
+            <div class="textcamppass">
+                <input type="password" required placeholder="Ingrese contraseña">
+            </div>
+
+            <div class="logadmin">
+                <i class="fa-solid fa-lock"><a class="textad" href="{% url 'vistaadmin' %}"> 
+                    Modo Administrador</a>
+                </i>
+            </div>
+
+            <div class="input">
+                <a href="{% url 'vistalogin' %}">
+                    <input type="" value="Iniciar Sesion"> 
+                </a>
+            </div>
+            
+            <div class="recordar">
+                ¿Olvido su Contraseña?
+            </div>
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>
+
+
+
